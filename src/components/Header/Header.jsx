@@ -10,7 +10,7 @@ const Header = () => {
     <div className="w-full h-[85px] fixed z-20 bg-[#15203d] font-[Fira Sans]">
       <div className="w-4/5 flex justify-between items-center mx-auto pt-[15px]">
         <Logo width={"w-[200px]"} />
-        <div className="flex gap-8 items-center text-sm font-semibold ">
+        <div className="flex gap-8 items-center text-sm text-[#E0EAEC] font-semibold ">
           {menus.map((menu) => (
             <a
               key={menu.id}

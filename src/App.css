@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.font-rubik {
+  font-family: "rubik";
+}
+
+.font-opensans {
+  font-family: "opensans";
+}
