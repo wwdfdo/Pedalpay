@@ -4,7 +4,7 @@ import ViewPort from "./ViewPort/ViewPort";
 
 const Body = () => {
   return (
-    <div className="w-full bg-[#14213d] text-white font-sans">
+    <div className="w-full bg-[#15203d] text-white font-sans">
       <Header />
       <ViewPort />
     </div>

@@ -6,14 +6,15 @@ import ridebike from "../../images/viewportImgv1.png";
 const ViewPort = () => {
   return (
     <div className="flex flex-col md:flex-row md:w-4/5 mx-auto gap-12 justify-between items-center pt-28">
-      <div className="mt-8 w-5/6 md:w-2/5 text-white flex flex-col gap-8 ">
+      <div className="mt-8 w-5/6 md:w-2/5 text-white  flex flex-col gap-8 ">
         <div>
-          <h1 className=" text-6xl font-bold font-opensans leading-relaxed">
-            Social-Fi & <br /> Game-Fi <br /> DAPP
+          <h1 className=" text-6xl font-bold font-opensans text-[#E0EAEC] leading-relaxed">
+            Social-Fi & <br /> Game-Fi
+            <br /> <span className="text-[#73f59b]">DAPP</span>
           </h1>
         </div>
         <div>
-          <p className=" text-2xl leading-relaxed font-semibold">
+          <p className=" text-2xl leading-relaxed font-semibold text-[#CAD1CE]">
             PedalPay is a futuristic, eco-mobility platform combining worlds of
             Game-Fi and Social-Fi into the most green mode of mobility, cycling.
           </p>
