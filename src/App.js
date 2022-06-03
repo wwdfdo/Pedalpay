@@ -1,7 +1,12 @@
 import "./App.css";
+import Body from "./components/body";
 
 function App() {
-  return <h2>hello world</h2>;
+  return (
+    <>
+      <Body />
+    </>
+  );
 }
 
 export default App;
