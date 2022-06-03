@@ -9,8 +9,8 @@ const ViewPort = () => {
       <div className="mt-8 w-5/6 md:w-2/5 text-white  flex flex-col gap-8 ">
         <div>
           <h1 className=" text-[3.04rem] font-bold font-opensans text-[#E0EAEC] leading-relaxed">
-            <span className="text-[#73f59b]">Bikes</span> Are Not a Sign of
-            Poverty, They Are a Great Equalizer
+            Bikes Are Not a Sign of Poverty, They Are a Great{" "}
+            <span className="text-[#73f59b]"> Equalizer</span>
           </h1>
         </div>
         <div>
