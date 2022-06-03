@@ -6,13 +6,13 @@ export const menus = [
   },
   {
     id: 2,
-    title: "Gameplay",
-    link: "#RidingMode",
+    title: "Overview",
+    link: "#Overview",
   },
   {
     id: 3,
-    title: "Overview",
-    link: "#Overview",
+    title: "Gameplay",
+    link: "#RidingMode",
   },
   {
     id: 4,
