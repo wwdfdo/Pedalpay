@@ -1,7 +1,8 @@
 import React from "react";
 import Applestore from "../../images/applestore1.png";
 import Googleplay from "../../images/googleplay1.png";
-import ridebike from "../../images/viewportImgv1.png";
+// import ridebike from "../../images/viewportImgv1.png";
+import viewportvideo from "../../images/pedalpay1Video.mp4";
 
 const ViewPort = () => {
   return (
@@ -28,9 +29,10 @@ const ViewPort = () => {
           </button>
         </div>
       </div>
-      <div className="lg:w-1/2">
-        <img src={ridebike} alt="" />
-      </div>
+
+      <video className="lg:w-1/2" loop="true" autoplay="autoplay" muted>
+        <source src={viewportvideo} type="video/mp4"></source>
+      </video>
     </div>
   );
 };
