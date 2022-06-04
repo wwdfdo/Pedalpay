@@ -4,7 +4,7 @@ import overviewImg from "../../images/pedalpaynftv1.png";
 const Overview = () => {
   return (
     <div id="Overview" className="pt-20">
-      <div className="bg-[#192546] drop-shadow-lg py-20">
+      <div className="bg-[#283259] drop-shadow-2xl py-20">
         <h2 className="text-[2.5em] font-rubik font-bold text-center text-white pb-20">
           Overview
         </h2>
