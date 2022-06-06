@@ -34,7 +34,7 @@ const ViewPort = () => {
         <source src={viewportImg} type="video/mp4"></source>
       </video> */}
       <img
-        className="absolute right-[3%] top-[17%] lg:w-1/2"
+        className="lg:absolute lg:right-[3%] lg:top-[17%] lg:w-1/2"
         src={viewportImg}
         alt=""
       />
