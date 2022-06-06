@@ -33,7 +33,11 @@ const ViewPort = () => {
       {/* <video className="lg:w-1/2" loop="true" autoplay="autoplay" muted>
         <source src={viewportImg} type="video/mp4"></source>
       </video> */}
-      <img className="lg:w-1/2" src={viewportImg} alt="" />
+      <img
+        className="absolute right-[3%] top-[20%] lg:w-1/2"
+        src={viewportImg}
+        alt=""
+      />
     </div>
   );
 };
