@@ -26,3 +26,8 @@ code {
   src: local("opensans"), url("./fonts/OpenSans-Bold.ttf") format("truetype");
   font-weight: bold;
 }
+@font-face {
+  font-family: "roboto";
+  src: local("roboto"), url("./fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: regular;
+}

@@ -18,7 +18,7 @@ const Overview = () => {
             </div>
             <div>
               <p className=" leading-loose text-semibold text-lg ">
-                Ride2Earn is a tokenized sports application based on web3. Users
+                Pedalpay is a tokenized sports application based on web3. Users
                 can purchase NFTs in the form of virtual bicycles which are
                 linked to real riding activities. By riding around, users will
                 earn our in-app token, which can either be used in-app or cashed
