@@ -8,7 +8,7 @@ const Navigation = ({ menus, navId, setNavId }) => {
           key={menu.id}
           className={`${navId === menu.id ? "text-[#73f59b]" : "text-white"} ${
             menu.id === "button"
-              ? "bg-[#274077] py-3 px-5 rounded-md text-white"
+              ? "border-2 border-[#117e3b] py-2 px-5 rounded-md text-white"
               : ""
           }`}
           onClick={() => setNavId(menu.id)}
