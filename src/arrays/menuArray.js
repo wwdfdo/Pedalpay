@@ -1,13 +1,13 @@
 export const menus = [
   {
     id: 1,
-    title: "NFTs",
-    link: "#Bikes",
+    title: "Overview",
+    link: "#Overview",
   },
   {
     id: 2,
-    title: "Overview",
-    link: "#Overview",
+    title: "NFTs",
+    link: "#Bikes",
   },
   {
     id: 3,

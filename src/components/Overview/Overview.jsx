@@ -1,5 +1,5 @@
 import React from "react";
-import overviewImg from "../../images/nftv8.png";
+import overviewImg from "../../images/nftv1.png";
 
 const Overview = () => {
   return (
