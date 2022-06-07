@@ -3,7 +3,7 @@ import Applestore from "../../images/applestore1.png";
 import Googleplay from "../../images/googleplay1.png";
 // import ridebike from "../../images/viewportImgv1.png";
 // import viewportImg from "../../images/viewportImgv1.png";
-import video2 from "../../images/viewportVideo2.mkv";
+import video2 from "../../images/viewportVideo3.mkv";
 
 const ViewPort = () => {
   return (
