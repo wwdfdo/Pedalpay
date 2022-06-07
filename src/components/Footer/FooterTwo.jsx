@@ -82,7 +82,7 @@ const Footer = () => {
       </div>
       <Logo width={"w-[250px]"} center={"mx-auto"} />
       <h2 className="text-center py-5">
-        Copyright © 2021.Pedalspay All Rights Reserved.
+        Copyright © 2022.Pedalspay All Rights Reserved.
       </h2>
     </div>
   );
