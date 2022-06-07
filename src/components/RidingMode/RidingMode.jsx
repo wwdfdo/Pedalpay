@@ -9,7 +9,7 @@ const RidingMode = () => {
       </h2>
       <div className="w-4/5 flex lg:flex-row flex-col justify-center gap-8 mx-auto">
         {ridingModesArray.map((mode) => (
-          <div className=" text-white rounded-lg w-full p-10 transition font-mono ease-in-out delay-150 bg-[#73f59b] hover:-translate-y-1 hover:scale-105">
+          <div className=" text-white rounded-lg w-full p-10 transition font-mono ease-in-out delay-150 bg-[#73f59b57] hover:-translate-y-1 hover:scale-105">
             <h3 className="mb-5 font-bold font-rubik text-xl">{mode.title}</h3>
             <p className="font-relaxed">{mode.text}</p>
           </div>
