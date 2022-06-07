@@ -28,12 +28,12 @@ const MobileNav = ({ menus }) => {
 
   return (
     <>
-      {open ? closeIcon : hamburgerIcon}
       <div
         className={`lg:hidden gap-8 items-center text-sm font-semibold flex flex-col mt-3 py-10 ${
           open ? "bg-black" : ""
         }`}
       >
+        {open ? closeIcon : hamburgerIcon}
         {open &&
           menus.map((menu) => (
             <a
