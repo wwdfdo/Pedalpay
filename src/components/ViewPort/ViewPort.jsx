@@ -2,8 +2,8 @@ import React from "react";
 import Applestore from "../../images/applestore1.png";
 import Googleplay from "../../images/googleplay1.png";
 // import ridebike from "../../images/viewportImgv1.png";
-import viewportImg from "../../images/viewportImgv1.png";
-// import video2 from "../../images/viewportVideo2.mkv";
+// import viewportImg from "../../images/viewportImgv1.png";
+import video2 from "../../images/viewportVideo2.mkv";
 
 const ViewPort = () => {
   return (
@@ -31,19 +31,19 @@ const ViewPort = () => {
         </div>
       </div>
 
-      {/* <video
+      <video
         className="lg:absolute lg:right-0 lg:w-3/5"
         loop="true"
         autoplay="autoplay"
         muted
       >
         <source src={video2} type="video/mp4"></source>
-      </video> */}
-      <img
+      </video>
+      {/* <img
         className="lg:absolute lg:right-[3%] lg:top-[17%] lg:w-1/2"
         src={viewportImg}
         alt=""
-      />
+      /> */}
     </div>
   );
 };
