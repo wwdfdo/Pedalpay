@@ -7,7 +7,7 @@ const CardSlider = () => {
   const NextArrow = ({ onClick }) => {
     return (
       <div
-        className="arrow cursor-pointer absolute right-[36.5%] -bottom-7 z-10 text-[#73f59b] p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] next text-md"
+        className="arrow cursor-pointer absolute lg:right-[36.5%] hidden -bottom-7 z-10 text-[#73f59b] p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] next text-md"
         onClick={onClick}
       >
         <FaArrowRight />
@@ -18,7 +18,7 @@ const CardSlider = () => {
   const PrevArrow = ({ onClick }) => {
     return (
       <div
-        className="arrow cursor-pointer absolute -bottom-7 left-[36.5%] z-10 text-[#73f59b]  p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] prev text-md"
+        className="arrow cursor-pointer absolute -bottom-7 lg:left-[36.5%] hidden z-10 text-[#73f59b]  p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] prev text-md"
         onClick={onClick}
       >
         <FaArrowLeft />
@@ -35,6 +35,32 @@ const CardSlider = () => {
     centerPadding: 40,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
