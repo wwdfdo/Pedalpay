@@ -7,8 +7,8 @@ import video2 from "../../images/viewportVideo3.mkv";
 
 const ViewPort = () => {
   return (
-    <div className="flex flex-col md:flex-row md:w-4/5 mx-auto gap-16 justify-between items-center pt-24">
-      <div className="mt-8 w-5/6 md:w-2/5 text-white  flex flex-col gap-12 ">
+    <div className="flex flex-col md:flex-row md:w-4/5 mx-auto gap-16 justify-between items-center">
+      <div className=" w-5/6 md:w-2/5 text-white  flex flex-col gap-12 mt-36 ">
         <div>
           <h1 className=" text-[3.5rem] font-bold font-opensans text-titlecolor leading-tight">
             Bikes Are Not a Sign of Poverty, They Are a Great{" "}
@@ -32,7 +32,7 @@ const ViewPort = () => {
       </div>
 
       <video
-        className="lg:absolute lg:right-0 lg:w-3/5"
+        className="lg:absolute lg:right-0 lg:top-[22%] lg:w-3/5"
         loop="true"
         autoplay="autoplay"
         muted
