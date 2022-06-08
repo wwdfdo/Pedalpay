@@ -53,17 +53,19 @@ const CardSlider = () => {
                   <img src={card.img} alt="" />
                 </div>
                 <div className="bg-cardbgcolor font-semibold font-mono rounded-b-md py-5 text-textcolor">
-                  <div>
+                  {/* <div>
                     <h2 className="text-md text-center pb-4">{card.name}</h2>
-                  </div>
-                  <div className="flex justify-around text-sm">
-                    <div className="text-left">
-                      <p>Creator</p>
-                      <p>{card.creator}</p>
+                  </div> */}
+                  <div className=" text-base flex flex-col gap-2 px-3">
+                    <div className=" flex justify-between">
+                      <p className="text-xl">Model No</p>
+                      <button className="bg-[#0000FF] py-[1px] tracking-widest text-[14px] font-semibold px-2 rounded-xl">
+                        BSC
+                      </button>
                     </div>
-                    <div className="text-left">
-                      <p>Current Bid</p>
-                      <p>{card.bid}</p>
+                    <div className=" flex justify-between items-center">
+                      <p>Current Price</p>
+                      <p className=" text-lg pr-2">TBD</p>
                     </div>
                   </div>
                 </div>
