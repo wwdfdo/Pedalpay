@@ -32,7 +32,7 @@ const ViewPort = () => {
       </div>
 
       <video
-        className="lg:absolute lg:right-0 lg:top-[22%] lg:w-3/5"
+        className="lg:absolute lg:right-0 lg:top-0 mt-36 lg:w-3/5"
         loop="true"
         autoplay="autoplay"
         muted

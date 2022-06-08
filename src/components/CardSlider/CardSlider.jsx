@@ -38,7 +38,7 @@ const CardSlider = () => {
   };
 
   return (
-    <div id="bikes" className=" lg:w-[95%] w-5/6  mx-auto pt-20">
+    <div id="bikes" className=" lg:w-[95%] w-5/6  mx-auto mt-32">
       <h2 className="text-textcolor font-rubik font-bold text-center text-[2.5em]">
         {" "}
         NFTs Showcase
