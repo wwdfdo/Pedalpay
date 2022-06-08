@@ -1,11 +1,11 @@
-import bike1 from "../images/card1.png";
-import bike2 from "../images/card2.png";
-import bike3 from "../images/card1.png";
-import bike4 from "../images/card2.png";
-import bike5 from "../images/card1.png";
-import bike6 from "../images/card2.png";
-import bike7 from "../images/card1.png";
-import bike8 from "../images/card2.png";
+import bike1 from "../images/card1cr.png";
+import bike2 from "../images/card2cr.png";
+import bike3 from "../images/card1cr.png";
+import bike4 from "../images/card2cr.png";
+import bike5 from "../images/card1cr.png";
+import bike6 from "../images/card2cr.png";
+import bike7 from "../images/card1cr.png";
+import bike8 from "../images/card2cr.png";
 
 export const cardsArray = [
   {
