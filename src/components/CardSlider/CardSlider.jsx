@@ -7,7 +7,7 @@ const CardSlider = () => {
   const NextArrow = ({ onClick }) => {
     return (
       <div
-        className="arrow cursor-pointer absolute lg:right-[36.5%] hidden -bottom-7 z-10 text-[#73f59b] p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] next text-md"
+        className="arrow cursor-pointer absolute lg:right-[36.5%] lg:block hidden -bottom-7 z-10 text-[#73f59b] p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] next text-md"
         onClick={onClick}
       >
         <FaArrowRight />
@@ -18,7 +18,7 @@ const CardSlider = () => {
   const PrevArrow = ({ onClick }) => {
     return (
       <div
-        className="arrow cursor-pointer absolute -bottom-7 lg:left-[36.5%] hidden z-10 text-[#73f59b]  p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] prev text-md"
+        className="arrow cursor-pointer absolute -bottom-7 lg:left-[36.5%] lg:block hidden z-10 text-[#73f59b]  p-1 rounded-3xl bg-slate-100  hover:text-[#68edff] prev text-md"
         onClick={onClick}
       >
         <FaArrowLeft />
