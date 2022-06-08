@@ -10,11 +10,11 @@ import bike8 from "../images/card2cr2.png";
 export const cardsArray = [
   {
     id: 1,
-    img: bike1,
+    img: bike5,
     name: "Bicycle one",
-    creator: "John Kennedy",
+    creator: "Alexander",
     bid: 4.5,
-    color: "bg-gradient-to-r from-[#c3b148] to-[#7c6930]",
+    color: "bg-gradient-to-r from-[#ebf9e7] to-[#c3eeb8]",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const cardsArray = [
     name: "Bicycle one",
     creator: "George",
     bid: 4.5,
-    color: "bg-[#4b2544]",
+    color: "bg-gradient-to-r from-[#e5e5e5] to-[#eee4e4]",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const cardsArray = [
     name: "Bicycle one",
     creator: "Leonardo",
     bid: 4.5,
-    color: "bg-[#7c6930]",
+    color: "bg-gradient-to-r from-[#e4dfeb] to-[#F8CCFF]",
   },
   {
     id: 4,
@@ -38,15 +38,15 @@ export const cardsArray = [
     name: "Bicycle one",
     creator: "Robert",
     bid: 4.5,
-    color: "bg-[#4b2544]",
+    color: "bg-gradient-to-r from-[#f8e4f6] to-[#F8CCFF]",
   },
   {
     id: 5,
-    img: bike5,
+    img: bike1,
     name: "Bicycle one",
-    creator: "Alexander",
+    creator: "John Kennedy",
     bid: 4.5,
-    color: "bg-[#7c6930]",
+    color: "bg-gradient-to-r from-[#e8e1cd] to-[#ddd3b4]",
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ export const cardsArray = [
     name: "Bicycle one",
     creator: "Bryan",
     bid: 4.5,
-    color: "bg-[#4b2544]",
+    color: "bg-gradient-to-r from-[#c895bf] to-[#651d59]",
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ export const cardsArray = [
     name: "Bicycle one",
     creator: "Johnston",
     bid: 4.5,
-    color: "bg-[#7c6930]",
+    color: "bg-gradient-to-r from-[#e8e1cd] to-[#ddd3b4]",
   },
   {
     id: 8,
@@ -70,6 +70,6 @@ export const cardsArray = [
     name: "Bicycle one",
     creator: "Johnston",
     bid: 4.5,
-    color: "bg-[#4b2544]",
+    color: "bg-gradient-to-r from-[#c895bf] to-[#651d59]",
   },
 ];
