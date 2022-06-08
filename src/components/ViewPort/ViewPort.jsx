@@ -10,7 +10,7 @@ const ViewPort = () => {
     <div className="flex flex-col md:flex-row md:w-4/5 mx-auto gap-12 justify-between items-center pt-24">
       <div className="mt-8 w-5/6 md:w-2/5 text-white  flex flex-col gap-12 ">
         <div>
-          <h1 className=" text-[3.5rem] font-bold font-opensans text-[#E0EAEC] leading-tight">
+          <h1 className=" text-[3.5rem] font-bold font-opensans text-titlecolor leading-tight">
             Bikes Are Not a Sign of Poverty, They Are a Great{" "}
             <span className="text-[#73f59b]"> Equalizer</span>
           </h1>

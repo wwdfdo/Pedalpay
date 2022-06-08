@@ -11,15 +11,15 @@ import CardSlider from "./CardSlider/CardSlider";
 
 const Body = () => {
   return (
-    <div className="w-full bg-[#344174] text-white font-sans">
+    <div className="w-full bg-bodycolor text-white font-sans">
       <Header />
       <ViewPort />
-
+      <CardSlider />
       <Overview />
       <SlickSlider />
       <RidingMode />
       <OurTeam />
-      <CardSlider />
+
       <TimelineRoadMap />
       <Footer />
     </div>

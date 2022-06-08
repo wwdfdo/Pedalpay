@@ -4,13 +4,13 @@ import overviewImg from "../../images/nftv1.png";
 const Overview = () => {
   return (
     <div id="Overview" className="pt-20">
-      <div className="bg-[#283259] drop-shadow-2xl py-20">
-        <h2 className="text-[2.5em] font-rubik font-bold text-center text-white pb-16">
+      <div className="drop-shadow-2xl py-20">
+        <h2 className="text-[2.5em] font-rubik font-bold text-center text-titlecolor pb-16">
           Overview
         </h2>
         <div className="flex lg:flex-row flex-col w-4/5 justify-between mx-auto items-center gap-20">
           <img className="lg:w-2/5" src={overviewImg} alt="" />
-          <div className="lg:w-1/2 text-white bg-[#73f59b57] py-10 px-10 rounded-lg font-mono">
+          <div className="lg:w-1/2 text-titlecolor bg-[#73f59b57] py-10 px-10 rounded-lg font-mono">
             <div>
               <h3 className="text-2xl font-bold mb-6 font-rubik">
                 EXPERIENCE JUST FOR RIDER OFFER

@@ -1,6 +1,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    colors: {
+      bodycolor: "#141521",
+      textcolor: "#ffffff",
+      titlecolor: "#fffeff",
+      cardbgcolor: "#353444",
+    },
+
     extend: {
       backgroundImage: {
         heroImage: "url('/src/images/cta-bg.jpg')",

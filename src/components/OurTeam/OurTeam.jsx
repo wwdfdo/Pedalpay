@@ -5,7 +5,7 @@ const OurTeam = () => {
   return (
     <div className="w-3/4 mx-auto lg:pt-10 pb-28" id="team">
       <div>
-        <h2 className="text-[2.5em]  text-white font-rubik font-bold text-center lg:pt-0 pt-24 lg:mt-16 mb-16 mt-0">
+        <h2 className="text-[2.5em]  text-textcolor font-rubik font-bold text-center lg:pt-0 pt-24 lg:mt-16 mb-16 mt-0">
           Our Team
         </h2>
       </div>
