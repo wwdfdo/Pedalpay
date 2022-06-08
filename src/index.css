@@ -37,3 +37,9 @@ code {
     url("./fonts/Montserrat-Bold.ttf") format("truetype");
   font-weight: regular;
 }
+@font-face {
+  font-family: "sansman";
+  src: local("sansman"),
+    url("./fonts/enter-sansman.bold.ttf") format("truetype");
+  font-weight: bold;
+}

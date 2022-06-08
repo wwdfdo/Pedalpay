@@ -29,7 +29,7 @@ const MobileNav = ({ menus }) => {
   return (
     <>
       <div
-        className={`lg:hidden gap-8 items-center text-sm font-semibold flex flex-col mt-3 py-10 ${
+        className={`lg:hidden gap-8 items-center text-md font-semibold flex flex-col mt-3 py-10 ${
           open ? "bg-[#000000]" : ""
         }`}
       >
@@ -38,7 +38,7 @@ const MobileNav = ({ menus }) => {
           menus.map((menu) => (
             <a
               key={menu.id}
-              className={`text-white ${
+              className={`text-white font-sansman ${
                 menu.id === "button"
                   ? "bg-[#274077] py-3 px-5 rounded-md text-white"
                   : ""
