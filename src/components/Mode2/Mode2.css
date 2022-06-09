@@ -1,6 +1,6 @@
 .ecosystem-content {
   border: 2px solid #35c038;
-  box-shadow: 1px 1px 10px #bddecd, 1px 1px 20px #73f59b, 1px 1px 40px #2df94026;
+  box-shadow: 1px 1px 10px #bddecd, 1px 1px 20px #73f59b, 1px 1px 40px #2df9406e;
 }
 
 .neon-text {
@@ -10,7 +10,7 @@
 
 .ecosystem-content:before,
 .eco-img:before {
-  background: linear-gradient(180deg, #0c0c0c00 0%, #4f662c 100%);
+  background: linear-gradient(180deg, #0cff001c 0%, #2b482dbd 100%);
   height: 100%;
   width: 100%;
   filter: blur(75px);
