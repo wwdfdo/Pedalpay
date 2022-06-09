@@ -32,14 +32,14 @@ const Modes2 = () => {
       <div className="flex w-4/6 justify-center mx-auto">
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <IoIosBicycle className="text-[#35c038] mx-auto mb-10 text-8xl" />
-            <p className="text-[#35c038] neon-text text-xl px-4">Solo-Mode</p>
+            <IoIosBicycle className="text-[#46ff49] mx-auto mb-10 text-8xl" />
+            <p className="text-[#46ff49] text-xl px-4">Solo-Mode</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <BsBriefcase className="text-[#35c038] mx-auto mb-10 text-8xl" />
-            <p className="text-[#35c038] text-xl px-4">Worker</p>
+            <BsBriefcase className="text-[#46ff49] mx-auto mb-10 text-8xl" />
+            <p className="text-[#46ff49] text-xl px-4">Worker</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
@@ -53,13 +53,13 @@ const Modes2 = () => {
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
             <SiEventstore className="text-[#46ff49] mx-auto mb-10 text-8xl" />
-            <p className="text-[#35c038] neon-text text-xl px-4">Events</p>
+            <p className="text-[#46ff49] text-xl px-4">Events</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
-            <p className="text-[#ffffff] text-xl px-4">Season Event</p>
+            <FaSnowflake className="text-[#46ff49] mx-auto mb-10 text-8xl" />
+            <p className="text-[#46ff49] text-xl px-4">Season Event</p>
           </div>
         </div>
       </div>
