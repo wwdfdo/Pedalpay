@@ -19,7 +19,7 @@ const Modes2 = () => {
     //   </div>
     // </div>
 
-    <div className="flex w-5/6 mx-auto">
+    <div className="flex w-5/6 mx-auto gap-6">
       {modesArray.map((mode) => (
         <div class="ecosystem-item px-[10px] w-1/4 mx-auto my-[50px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
