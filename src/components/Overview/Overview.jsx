@@ -1,5 +1,5 @@
 import React from "react";
-import overviewImg from "../../images/Neon8.png";
+import overviewImg from "../../images/Neon9.png";
 
 const Overview = () => {
   return (
@@ -9,7 +9,7 @@ const Overview = () => {
           Overview
         </h2>
         <div className="flex lg:flex-row flex-col w-4/5 justify-between mx-auto items-center gap-20">
-          <img className="lg:w-2/5" src={overviewImg} alt="" />
+          <img className="lg:w-1/2" src={overviewImg} alt="" />
           <div className="lg:w-1/2 text-titlecolor bg-[#73f59bbd] py-10 px-10 rounded-lg font-mono">
             <div>
               <h3 className="text-2xl font-bold mb-6 font-rubik">
