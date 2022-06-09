@@ -1,6 +1,6 @@
 .ecosystem-content {
-  border: 2px solid #35c038;
-  box-shadow: 1px 1px 10px #bddecd, 1px 1px 20px #73f59b, 1px 1px 40px #2df9406e;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1px 10px #f6fcf9, 1px 1px 20px #e6ecf3, 1px 1px 40px #f3f0f46e;
 }
 
 .neon-text {
@@ -8,7 +8,7 @@
     0 0 80px #00b3ff, 0 0 120px #00b3ff;
 }
 
-.ecosystem-content:before,
+/* .ecosystem-content:before,
 .eco-img:before {
   background: linear-gradient(180deg, #0cff001c 0%, #ffffff63 100%);
   height: 100%;
@@ -17,5 +17,16 @@
   position: absolute;
   content: "";
   top: 0;
+  left: 0;
+} */
+.ecosystem-content:before,
+.eco-img:before {
+  background: linear-gradient(174deg, #00000000, #3102f780);
+  height: 99%;
+  width: 99%;
+  filter: blur(30px);
+  position: absolute;
+  content: "";
+  top: 10%;
   left: 0;
 }
