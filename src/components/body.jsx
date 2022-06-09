@@ -7,7 +7,7 @@ import RidingMode from "./RidingMode/RidingMode";
 import OurTeam from "./OurTeam/OurTeam";
 import TimelineRoadMap from "./TimelineRoadMap/TimelineRoadMap";
 import Footer from "./Footer/FooterTwo";
-import CardSlider from "./CardSlider/CardSlider";
+// import CardSlider from "./CardSlider/CardSlider";
 import Modes from "./Modes/Modes";
 
 const Body = () => {
@@ -15,7 +15,7 @@ const Body = () => {
     <div className="w-full bg-bodycolor text-white font-sans">
       <Header />
       <ViewPort />
-      <CardSlider />
+      {/* <CardSlider /> */}
       <Overview />
       {/* <SlickSlider /> */}
       <RidingMode />

@@ -8,9 +8,15 @@ import Logo from "../Header/Logo";
 
 const Footer = () => {
   return (
-    <div className="text-textcolor">
-      <div className="flex lg:flex-row flex-col w-4/5 lg:justify-between items-center lg:text-left text-center gap-8 text-white mx-auto my-16">
-        <div className="flex flex-col">
+    <div className="text-textcolor flex justify-between mx-auto w-4/5 items-center py-10">
+      <div>
+        <Logo width={"w-[250px]"} center={"mx-auto"} />
+        <h2 className="text-center py-5">
+          Copyright © 2022.Pedalspay All Rights Reserved.
+        </h2>
+      </div>
+      <div className="flex lg:flex-row  lg:justify-between items-center lg:text-left text-center gap-8 text-white">
+        {/* <div className="flex flex-col">
           <h2 className="text-[#51AD6D] font-sans font-semibold mb-3">
             Contact
           </h2>
@@ -20,8 +26,8 @@ const Footer = () => {
             <li>Contact</li>
             <li>Contact</li>
           </ul>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <h2 className="text-[#51AD6D] font-sans font-semibold mb-3">
             Useful Links
           </h2>
@@ -31,8 +37,8 @@ const Footer = () => {
             <li>Team And Advisors</li>
             <li>The Technology</li>
           </ul>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <h2 className="text-[#51AD6D] font-sans font-semibold mb-3">
             Recent post
           </h2>
@@ -42,7 +48,7 @@ const Footer = () => {
             <li>Contact</li>
             <li>Contact</li>
           </ul>
-        </div>
+        </div> */}
         <div>
           <div>
             <h2 className="mb-3 text-[#51AD6D] font-sans font-semibold">
@@ -80,10 +86,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <Logo width={"w-[250px]"} center={"mx-auto"} />
-      <h2 className="text-center py-5">
-        Copyright © 2022.Pedalspay All Rights Reserved.
-      </h2>
     </div>
   );
 };
