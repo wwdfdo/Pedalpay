@@ -2,3 +2,8 @@
   border: 2px solid #35c038;
   box-shadow: 1px 1px 10px #bddecd, 1px 1px 20px #73f59b, 1px 1px 40px #2df94026;
 }
+
+.neon-text {
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+    0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
