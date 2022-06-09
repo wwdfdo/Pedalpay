@@ -3,6 +3,10 @@ import React from "react";
 import "./Mode2.css";
 
 import { FaSnowflake } from "react-icons/fa";
+import { IoIosBicycle } from "react-icons/io";
+import { BsBriefcase } from "react-icons/bs";
+import { GiLaurelsTrophy } from "react-icons/gi";
+import { SiEventstore } from "react-icons/si";
 
 const Modes2 = () => {
   return (
@@ -28,19 +32,19 @@ const Modes2 = () => {
       <div className="flex w-5/6 justify-center mx-auto">
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+            <IoIosBicycle className="text-[#ffffff] mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Solo-Mode</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+            <BsBriefcase className="text-[#ffffff] mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Worker</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+            <GiLaurelsTrophy className="text-[#ffffff] mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Rasing</p>
           </div>
         </div>
@@ -48,7 +52,7 @@ const Modes2 = () => {
       <div className="flex w-3/5 justify-center mx-auto">
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+            <SiEventstore className="text-[#ffffff] mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Events</p>
           </div>
         </div>
