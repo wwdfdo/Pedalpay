@@ -1,6 +1,8 @@
 import React from "react";
-import { modesArray } from "../../arrays/modesArray";
+
 import "./Mode2.css";
+
+import { FaSnowflake } from "react-icons/fa";
 
 const Modes2 = () => {
   return (
@@ -20,18 +22,30 @@ const Modes2 = () => {
     // </div>
 
     <div className="flex w-5/6 mx-auto gap-6">
-      {modesArray.map((mode) => (
-        <div class="ecosystem-item px-[10px] w-1/4 mx-auto my-[50px] ">
-          <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <img
-              className="mb-[1.5625vw] max-h-[7.510416666666667vw] relative mx-auto"
-              src={mode.img}
-              alt=""
-            />
-            <p className="text-[#ffffff] text-xl px-4">{mode.text}</p>
-          </div>
+      <div class="ecosystem-item px-[10px] w-1/4 mx-auto my-[50px] ">
+        <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+          <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+          <p className="text-[#ffffff] text-xl px-4">Solo-Mode</p>
         </div>
-      ))}
+      </div>
+      <div class="ecosystem-item px-[10px] w-1/4 mx-auto my-[50px] ">
+        <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+          <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+          <p className="text-[#ffffff] text-xl px-4">Worker</p>
+        </div>
+      </div>
+      <div class="ecosystem-item px-[10px] w-1/4 mx-auto my-[50px] ">
+        <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+          <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+          <p className="text-[#ffffff] text-xl px-4">Rasing</p>
+        </div>
+      </div>
+      <div class="ecosystem-item px-[10px] w-1/4 mx-auto my-[50px] ">
+        <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+          <FaSnowflake className="text-[#ffffff] mx-auto mb-10 text-8xl" />
+          <p className="text-[#ffffff] text-xl px-4">Events</p>
+        </div>
+      </div>
     </div>
   );
 };

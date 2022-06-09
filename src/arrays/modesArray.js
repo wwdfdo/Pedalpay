@@ -1,4 +1,4 @@
-import mode1 from "../images/mode1.svg";
+import mode1 from "../images/bikesvg.svg";
 import mode2 from "../images/mode2.svg";
 import mode3 from "../images/mode3.svg";
 import mode4 from "../images/mode4.svg";
