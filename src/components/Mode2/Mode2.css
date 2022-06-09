@@ -21,7 +21,7 @@
 } */
 .ecosystem-content:before,
 .eco-img:before {
-  background: linear-gradient(174deg, #ffba00, #ffba00);
+  background: linear-gradient(174deg, #00000000, #3102f780);
   height: 99%;
   width: 99%;
   filter: blur(30px);
