@@ -2,7 +2,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      bodycolor: "#001029",
+      bodycolor: "#000",
       textcolor: "#ffffff",
       titlecolor: "#fffeff",
       cardbgcolor: "#353444",
