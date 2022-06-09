@@ -32,19 +32,19 @@ const Modes2 = () => {
       <div className="flex  w-4/6 justify-center mx-auto">
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <IoIosBicycle className="text-[#ffffff] eco-img mx-auto mb-10 text-8xl" />
+            <IoIosBicycle className="text-[#000] eco-img mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Solo-Mode</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <BsBriefcase className="text-[#46ff49] eco-img mx-auto mb-10 text-8xl" />
+            <BsBriefcase className="text-[#000] eco-img mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Worker</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <GiLaurelsTrophy className="text-[#ff46e9] eco-img mx-auto mb-10 text-8xl" />
+            <GiLaurelsTrophy className="text-[#000] eco-img mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Rasing</p>
           </div>
         </div>
@@ -52,13 +52,13 @@ const Modes2 = () => {
       <div className="flex w-3/5 justify-center mx-auto">
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <SiEventstore className="text-[#46c8ff] eco-img mx-auto mb-10 text-8xl" />
+            <SiEventstore className="text-[#000] eco-img mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Events</p>
           </div>
         </div>
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
-            <FaSnowflake className="text-[#46ff49] eco-img mx-auto mb-10 text-8xl" />
+            <FaSnowflake className="text-[#000] eco-img mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl px-4">Season Event</p>
           </div>
         </div>
