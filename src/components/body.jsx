@@ -7,8 +7,9 @@ import RidingMode from "./RidingMode/RidingMode";
 // import OurTeam from "./OurTeam/OurTeam";
 import TimelineRoadMap from "./TimelineRoadMap/TimelineRoadMap";
 import Footer from "./Footer/FooterTwo";
+import Modes2 from "./Mode2/Mode2";
 // import CardSlider from "./CardSlider/CardSlider";
-import Modes from "./Modes/Modes";
+// import Modes from "./Modes/Modes";
 
 const Body = () => {
   return (
@@ -20,7 +21,8 @@ const Body = () => {
       {/* <SlickSlider /> */}
       <RidingMode />
       {/* <OurTeam /> */}
-      <Modes />
+      {/* <Modes /> */}
+      <Modes2 />
       <TimelineRoadMap />
       <Footer />
     </div>
