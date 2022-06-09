@@ -29,7 +29,7 @@ const Modes2 = () => {
       <h2 className="text-textcolor font-rubik font-bold text-center text-[2.5em] pb-24">
         Echosystem Modes
       </h2>
-      <div className="flex w-5/6 justify-center mx-auto">
+      <div className="flex w-4/6 justify-center mx-auto">
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
           <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
             <IoIosBicycle className="text-[#ffffff] mx-auto mb-10 text-8xl" />
