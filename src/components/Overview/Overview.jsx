@@ -18,7 +18,7 @@ const Overview = () => {
               </h3>
             </div>
             <div>
-              <p className="neon leading-loose text-semibold text-lg ">
+              <p className=" leading-loose text-semibold text-lg ">
                 Pedalpay is a tokenized sports application based on web3. Users
                 can purchase NFTs in the form of virtual bicycles which are
                 linked to real riding activities. By riding around, users will
