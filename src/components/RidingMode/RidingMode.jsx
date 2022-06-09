@@ -5,7 +5,7 @@ const RidingMode = () => {
   return (
     <div id="RidingMode" className="py-28 drop-shadow-2xl">
       <h2 className="text-textcolor font-rubik font-bold text-center text-[2.5em] pb-16">
-        Riding Modes
+        Echosystem Modes
       </h2>
       <div className="w-4/5 flex lg:flex-row flex-col justify-center gap-8 mx-auto">
         {ridingModesArray.map((mode) => (
