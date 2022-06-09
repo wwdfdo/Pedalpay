@@ -5,9 +5,10 @@ import Overview from "./Overview/Overview";
 // import SlickSlider from "./Slider/SlickSlider";
 // import RidingMode from "./RidingMode/RidingMode";
 // import OurTeam from "./OurTeam/OurTeam";
-import TimelineRoadMap from "./TimelineRoadMap/TimelineRoadMap";
+// import TimelineRoadMap from "./TimelineRoadMap/TimelineRoadMap";
 import Footer from "./Footer/FooterTwo";
 import Modes2 from "./Mode2/Mode2";
+import NftEconomy from "./NftEconomy/NftEconomy";
 // import CardSlider from "./CardSlider/CardSlider";
 // import Modes from "./Modes/Modes";
 
@@ -23,7 +24,8 @@ const Body = () => {
       {/* <OurTeam /> */}
       {/* <Modes /> */}
       <Modes2 />
-      <TimelineRoadMap />
+      <NftEconomy />
+      {/* <TimelineRoadMap /> */}
       <Footer />
     </div>
   );
