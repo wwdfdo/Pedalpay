@@ -3,44 +3,73 @@ import React from "react";
 const TokenEconomy = () => {
   return (
     <div className="w-full">
-      <table class="table-auto text-[#ffffff] w-5/6 mx-auto">
+      <table class="table-auto text-[#ffffff]  w-5/6 mx-auto">
         <tbody>
-          <tr className="bg-[#7FFFAB]">
-            <td className="py-3 font-semibold">
-              The Sliding Mr. Bones (Next Stop, Pottersville)
+          <tr className="bg-[#F573CD]">
+            <td className="py-3 px-2 font-bold"></td>
+            <td className="py-3 px-2 font-bold">Allocation</td>
+            <td className="py-3 px-2 font-bold">Token</td>
+            <td className="py-3 px-2 font-bold">Value</td>
+            <td className="py-3 px-2 font-bold">Vesting</td>
+          </tr>
+          <tr>
+            <td className="py-3 px-2 font-bold">Public</td>
+            <td className="py-3 px-2 font-bold">15%</td>
+            <td className="py-3 px-2 font-bold">15,000,000</td>
+            <td className="py-3 px-2 font-bold">$300,000</td>
+            <td className="py-3 px-2 font-bold"></td>
+          </tr>
+          <tr className="bg-[#738CF5]">
+            <td className="py-3 px-2 font-bold">Team</td>
+            <td className="py-3 px-2 font-bold">10%</td>
+            <td className="py-3 px-2 font-bold">10,000,000</td>
+            <td className="py-3 px-2 font-bold">$200,000</td>
+            <td className="py-3 px-2 font-bold">
+              12 Month cliff linear vesting over 24months
             </td>
-            <td>Malcolm Lockyer</td>
-            <td>1961</td>
-            <td>Malcolm Lockyer</td>
-            <td>1961</td>
           </tr>
           <tr>
-            <td>Witchy Woman</td>
-            <td>The Eagles</td>
-            <td>1972</td>
-            <td>The Eagles</td>
-            <td>1972</td>
+            <td className="py-3 px-2 font-bold">Advisor</td>
+            <td className="py-3 px-2 font-bold">5%</td>
+            <td className="py-3 px-2 font-bold">5,000,000</td>
+            <td className="py-3 px-2 font-bold">$100,000</td>
+            <td className="py-3 px-2 font-bold">
+              12 Month cliff linear vesting over 24months
+            </td>
+          </tr>
+          <tr className="bg-[#738CF5]">
+            <td className="py-3 px-2 font-bold">Marketing/Media</td>
+            <td className="py-3 px-2 font-bold">20%</td>
+            <td className="py-3 px-2 font-bold">20,000,000</td>
+            <td className="py-3 px-2 font-bold">$400,000</td>
+            <td className="py-3 px-2 font-bold">
+              Linear vesting Over 24months
+            </td>
           </tr>
           <tr>
-            <td>Shining Star</td>
-            <td>Earth, Wind, and Fire</td>
-            <td>1975</td>
-            <td>Earth, Wind, and Fire</td>
-            <td>1975</td>
+            <td className="py-3 px-2 font-bold">Team</td>
+            <td className="py-3 px-2 font-bold">10%</td>
+            <td className="py-3 px-2 font-bold">10,000,000</td>
+            <td className="py-3 px-2 font-bold">$200,000</td>
+            <td className="py-3 px-2 font-bold">
+              12 Month cliff linear vesting over 24months
+            </td>
+          </tr>
+          <tr className="bg-[#738CF5]">
+            <td className="py-3 px-2 font-bold">Team</td>
+            <td className="py-3 px-2 font-bold">10%</td>
+            <td className="py-3 px-2 font-bold">10,000,000</td>
+            <td className="py-3 px-2 font-bold">$200,000</td>
+            <td className="py-3 px-2 font-bold">
+              12 Month cliff linear vesting over 24months
+            </td>
           </tr>
           <tr>
-            <td>Shining Star</td>
-            <td>Earth, Wind, and Fire</td>
-            <td>1975</td>
-            <td>Earth, Wind, and Fire</td>
-            <td>1975</td>
-          </tr>
-          <tr>
-            <td>Shining Star</td>
-            <td>Earth, Wind, and Fire</td>
-            <td>1975</td>
-            <td>Earth, Wind, and Fire</td>
-            <td>1975</td>
+            <td className="py-3 px-2 font-bold"></td>
+            <td className="py-3 px-2 font-bold"></td>
+            <td className="py-3 px-2 font-bold">100,000,000</td>
+            <td className="py-3 px-2 font-bold">2,000,000</td>
+            <td className="py-3 px-2 font-bold"></td>
           </tr>
         </tbody>
       </table>
