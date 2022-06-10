@@ -6,7 +6,7 @@ const TokenEconomy = () => {
       <table class="table-auto text-[#ffffff] w-5/6 mx-auto">
         <tbody>
           <tr className="bg-[#7FFFAB]">
-            <td className="py-3 text-semibold">
+            <td className="py-3 font-semibold">
               The Sliding Mr. Bones (Next Stop, Pottersville)
             </td>
             <td>Malcolm Lockyer</td>
