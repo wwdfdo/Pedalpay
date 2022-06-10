@@ -14,6 +14,7 @@ module.exports = {
         slidebg: "url('/src/images/slide-image-bg.png')",
         roadmapbg: "url('/src/images/roadmap.gif')",
         roadbg: "url('/src/images/roadmapImg.png')",
+        neonroadmap: "url('/src/images/neonroadmap2.png')",
       },
       animation: {
         // Bounces for a total of 5 seconds
