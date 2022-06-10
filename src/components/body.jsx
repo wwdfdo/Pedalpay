@@ -9,6 +9,7 @@ import Overview from "./Overview/Overview";
 import Footer from "./Footer/FooterTwo";
 import Modes2 from "./Mode2/Mode2";
 import NftEconomy from "./NftEconomy/NftEconomy";
+import Socialfy from "./Socialfy/Socialfy";
 // import CardSlider from "./CardSlider/CardSlider";
 // import Modes from "./Modes/Modes";
 
@@ -25,6 +26,7 @@ const Body = () => {
       {/* <Modes /> */}
       <Modes2 />
       <NftEconomy />
+      <Socialfy />
       {/* <TimelineRoadMap /> */}
       <Footer />
     </div>
