@@ -8,15 +8,31 @@ import Logo from "../Header/Logo";
 
 const Footer = () => {
   return (
-    <div className="text-textcolor flex justify-between mx-auto w-4/5 items-center py-10">
-      <div>
-        <Logo width={"w-[250px]"} center={"mx-auto"} />
-        <h2 className="text-center py-5">
-          Copyright © 2022.Pedalspay All Rights Reserved.
-        </h2>
+    <div className="text-textcolor flex flex-col justify-between mx-auto w-4/5 items-center pt-10">
+      <Logo width={"w-[250px]"} center={"mx-auto"} />
+      <div className="flex gap-5 mt-5">
+        <div className="w-[31px]">
+          <img src={instagram} alt="" />
+        </div>
+        <div className="w-[31px]">
+          <img src={facebook} alt="" />
+        </div>
+        <div className="w-[31px]">
+          <img src={twitter} alt="" />
+        </div>
+        <div className="w-[31px]">
+          <img src={linkedin} alt="" />
+        </div>
+        <div className="w-[31px]">
+          <img src={whatsapp} alt="" />
+        </div>
       </div>
-      <div className="flex lg:flex-row  lg:justify-between items-center lg:text-left text-center gap-8 text-white">
-        {/* <div className="flex flex-col">
+      <h2 className="text-center py-5">
+        Copyright © 2022.Pedalspay All Rights Reserved.
+      </h2>
+
+      {/* <div className="flex lg:flex-row  lg:justify-between items-center lg:text-left text-center gap-8 text-white"> */}
+      {/* <div className="flex flex-col">
           <h2 className="text-[#51AD6D] font-sans font-semibold mb-3">
             Contact
           </h2>
@@ -27,7 +43,7 @@ const Footer = () => {
             <li>Contact</li>
           </ul>
         </div> */}
-        {/* <div>
+      {/* <div>
           <h2 className="text-[#51AD6D] font-sans font-semibold mb-3">
             Useful Links
           </h2>
@@ -38,7 +54,7 @@ const Footer = () => {
             <li>The Technology</li>
           </ul>
         </div> */}
-        {/* <div>
+      {/* <div>
           <h2 className="text-[#51AD6D] font-sans font-semibold mb-3">
             Recent post
           </h2>
@@ -49,8 +65,8 @@ const Footer = () => {
             <li>Contact</li>
           </ul>
         </div> */}
-        <div>
-          <div>
+      <div>
+        {/* <div>
             <h2 className="mb-3 text-[#51AD6D] font-sans font-semibold">
               NEWSLETTER
             </h2>
@@ -65,28 +81,10 @@ const Footer = () => {
                 value="Submit"
               ></input>
             </form>
-          </div>
-
-          <div className="flex gap-5 mt-5">
-            <div className="w-[31px]">
-              <img src={instagram} alt="" />
-            </div>
-            <div className="w-[31px]">
-              <img src={facebook} alt="" />
-            </div>
-            <div className="w-[31px]">
-              <img src={twitter} alt="" />
-            </div>
-            <div className="w-[31px]">
-              <img src={linkedin} alt="" />
-            </div>
-            <div className="w-[31px]">
-              <img src={whatsapp} alt="" />
-            </div>
-          </div>
-        </div>
+          </div> */}
       </div>
     </div>
+    // </div>
   );
 };
 

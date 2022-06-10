@@ -22,10 +22,10 @@ const ViewPort = () => {
           </p>
         </div>
         <div className="flex gap-6">
-          <button>
+          <button className=" border-[1px] border-white rounded-[3px]">
             <img className=" w-[160px]" src={Applestore} alt="" />
           </button>
-          <button>
+          <button className=" border-[1px] border-white rounded-[3px]">
             <img className=" w-[160px]" src={Googleplay} alt="" />
           </button>
         </div>
