@@ -3,8 +3,8 @@ import NeonRoadMapImg from "../../images/neonroadmap3.png";
 
 const NeonRoadMap = () => {
   return (
-    <div className="w-full mt-36 relative">
-      <h2 className="text-textcolor font-rubik font-bold text-center text-[2.5em] absolute left-[50%] -ml-24 mt-10">
+    <div id="Roadmap" className="w-full mt-36 relative">
+      <h2 className="text-textcolor font-[700] font-montserrat text-center text-[2.5em] absolute left-[50%] -ml-24 mt-10">
         Road Map
       </h2>
       <img src={NeonRoadMapImg} alt="" />

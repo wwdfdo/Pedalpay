@@ -6,23 +6,28 @@ export const menus = [
   },
   {
     id: 2,
-    title: "NFTs",
-    link: "#Bikes",
+    title: "Modes",
+    link: "#Modes",
   },
   {
     id: 3,
-    title: "Gameplay",
-    link: "#RidingMode",
+    title: "Economy",
+    link: "#Economy",
   },
   {
     id: 4,
-    title: "Our Team",
-    link: "#team",
+    title: "Social-Fi",
+    link: "#Social",
   },
   {
     id: 5,
     title: "Roadmap",
     link: "#Roadmap",
+  },
+  {
+    id: 6,
+    title: "Tokonomics",
+    link: "#Tokonomics",
   },
   {
     id: "button",

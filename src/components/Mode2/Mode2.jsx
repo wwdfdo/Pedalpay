@@ -25,8 +25,11 @@ const Modes2 = () => {
     //   </div>
     // </div>
 
-    <div className="flex flex-col justify-center  mx-auto gap-3 mt-32">
-      <h2 className="text-textcolor font-rubik font-bold text-center text-[2.5em] pb-24">
+    <div
+      id="Modes"
+      className="flex flex-col justify-center  mx-auto gap-3 mt-32"
+    >
+      <h2 className="text-textcolor font-[700] font-montserrat text-center text-[2.5em] pb-24">
         Ecosystem Modes
       </h2>
       <div className="flex  w-4/6 justify-center mx-auto">
