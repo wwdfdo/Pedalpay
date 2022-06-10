@@ -7,7 +7,7 @@ const Socialfy = () => {
   return (
     <div className="flex flex-col justify-center  mx-auto gap-3 mt-32 mb-20">
       <h2 className="text-textcolor font-rubik font-bold text-center text-[2.5em] pb-16">
-        Social-Fy
+        Social-Fi
       </h2>
       <div className="flex  w-4/6 justify-center mx-auto">
         <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
