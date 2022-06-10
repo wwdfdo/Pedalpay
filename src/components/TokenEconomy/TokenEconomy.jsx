@@ -2,11 +2,12 @@ import React from "react";
 
 const TokenEconomy = () => {
   return (
-    <div id="Tokonomics" className="w-full mb-32">
+    <div id="Tokonomics" className="mb-32">
       <h2 className="text-textcolor font-[700] font-montserrat text-center text-[2.5em] pb-12">
         Token Economy
       </h2>
-      <table class="table-auto text-[#ffffff]  w-5/6 mx-auto">
+
+      <table class="table-auto text-[#ffffff] mx-auto w-5/6">
         <tbody>
           <tr className="bg-[#F573CD]">
             <td className="py-3 px-2 font-[500] font-montserrat"></td>

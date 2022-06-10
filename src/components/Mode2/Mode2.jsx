@@ -27,42 +27,43 @@ const Modes2 = () => {
 
     <div
       id="Modes"
-      className="flex flex-col justify-center  mx-auto gap-3 mt-32"
+      className="flex flex-col justify-center  mx-auto gap-3 mt-24"
     >
-      <h2 className="text-textcolor font-[700] font-montserrat text-center text-[2.5em] pb-24">
+      <h2 className="text-textcolor font-[700] font-montserrat text-center text-[2.5em] pb-16">
         Ecosystem Modes
       </h2>
-      <div className="flex  w-4/6 justify-center mx-auto">
-        <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
-          <div class="ecosystem-content1 pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+      <div className="ecosystem-box flex flex-wrap justify-center  w-4/6 mx-auto">
+        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div class="ecosystem-content1">
             <IoIosBicycle className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
-            <p className="text-[#ffffff] text-xl px-4">Solo-Mode</p>
+            <p className="text-[#ffffff] text-xl text-center px-4">Solo-Mode</p>
           </div>
         </div>
-        <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
-          <div class="ecosystem-content1 pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px]">
+          <div class="ecosystem-content1">
             <BsBriefcase className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
-            <p className="text-[#ffffff] text-xl px-4">Worker</p>
+            <p className="text-[#ffffff] text-xl text-center px-4">Worker</p>
           </div>
         </div>
-        <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
-          <div class="ecosystem-content1 pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div class="ecosystem-content1">
             <GiLaurelsTrophy className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
-            <p className="text-[#ffffff] text-xl px-4">Rasing</p>
+            <p className="text-[#ffffff] text-xl text-center px-4">Rasing</p>
           </div>
         </div>
-      </div>
-      <div className="flex w-3/5 justify-center mx-auto">
-        <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
-          <div class="ecosystem-content1 pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+
+        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div class="ecosystem-content1">
             <SiEventstore className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
-            <p className="text-[#ffffff] text-xl px-4">Events</p>
+            <p className="text-[#ffffff] text-xl text-center px-4">Events</p>
           </div>
         </div>
-        <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
-          <div class="ecosystem-content1 pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div class="ecosystem-content1">
             <FaSnowflake className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
-            <p className="text-[#ffffff] text-xl px-4">Season Event</p>
+            <p className="text-[#ffffff] text-xl text-center px-4">
+              Season Event
+            </p>
           </div>
         </div>
       </div>
