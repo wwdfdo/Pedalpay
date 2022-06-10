@@ -2,9 +2,9 @@ import React from "react";
 
 const TokenEconomy = () => {
   return (
-    <div className="w-full">
+    <div className="w-full mb-32">
       <h2 className="text-textcolor font-rubik font-bold text-center text-[2.5em] pb-12">
-        Ecosystem Modes
+        Token Economy
       </h2>
       <table class="table-auto text-[#ffffff]  w-5/6 mx-auto">
         <tbody>

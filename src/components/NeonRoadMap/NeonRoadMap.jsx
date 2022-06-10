@@ -3,7 +3,7 @@ import React from "react";
 
 const NeonRoadMap = () => {
   return (
-    <div className="w-full mb-40 mt-36 bg-neonroadmap bg-no-repeat bg-cover h-[800px]">
+    <div className="w-full mb-32 mt-36 bg-neonroadmap bg-no-repeat bg-cover h-[855px]">
       <h2 className="text-textcolor font-rubik p-10 font-bold text-center text-[2.5em]">
         Road Map
       </h2>
