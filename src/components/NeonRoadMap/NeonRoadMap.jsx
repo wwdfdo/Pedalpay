@@ -1,5 +1,5 @@
 import React from "react";
-import NeonRoadMapImg from "../../images/neonroadmap.png";
+import NeonRoadMapImg from "../../images/neonroadmap1.png";
 
 const NeonRoadMap = () => {
   return (
