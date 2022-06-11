@@ -2,7 +2,7 @@ import React from "react";
 
 const TokenEconomy = () => {
   return (
-    <div id="Tokonomics" className="mb-32">
+    <div id="Tokonomics" className="pt-[80px] pb-20">
       <h2 className="text-textcolor font-[700] font-montserrat text-center text-[2.5em] pb-12">
         Token Economy
       </h2>

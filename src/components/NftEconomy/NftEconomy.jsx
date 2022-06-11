@@ -5,7 +5,7 @@ const NftEconomy = () => {
   return (
     <div
       id="Economy"
-      className="flex flex-col gap-10 justify-center mx-auto w-full mt-24 mb-36"
+      className="flex flex-col gap-10 justify-center mx-auto w-full pt-[80px] pb-20"
     >
       <h2 className="text-textcolor font-[700] font-montserrat text-center text-[2.5em] mb-8 mt-10">
         NFT Economy

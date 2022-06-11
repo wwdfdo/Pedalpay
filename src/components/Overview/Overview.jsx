@@ -4,8 +4,8 @@ import "./Overview.css";
 
 const Overview = () => {
   return (
-    <div id="Overview" className="pt-20">
-      <div className="drop-shadow-2xl py-20">
+    <div id="Overview" className=" pt-[80px] pb-20">
+      <div className="drop-shadow-2xl">
         <h2 className="text-[2.5em] font-500 font-montserrat font-bold text-center text-titlecolor pb-16">
           Overview
         </h2>
