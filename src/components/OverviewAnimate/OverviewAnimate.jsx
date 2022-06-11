@@ -6,9 +6,11 @@ const OverviewAnimate = () => {
   return (
     <div id="Overview" className=" pt-[80px] pb-20">
       <div className="drop-shadow-2xl">
-        <h2 className="text-[2.5em] font-500 font-montserrat font-bold text-center text-titlecolor pb-16">
-          Overview
-        </h2>
+        <div>
+          <h2 className="text-[2.5em] font-500 font-montserrat font-bold text-center text-titlecolor pb-16">
+            Overview
+          </h2>
+        </div>
         <div className="flex lg:flex-row flex-col md:w-5/6 w-[90%] justify-between mx-auto items-center gap-20">
           <img className="lg:w-1/2" src={overviewImg} alt="" />
           <div className=" box w-1/2 h-[70vh] text-titlecolor  py-10 px-10 rounded-lg font-mono">

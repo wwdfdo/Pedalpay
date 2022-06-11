@@ -45,7 +45,7 @@ const ViewPort = () => {
     //     alt=""
     //   /> */}
     // </div>
-    <div className="h-[100vh] mt-[50px] pt-[40px] pb-20">
+    <div className="min-h-[100vh] mt-[50px] pt-[40px] pb-20">
       <div className="pt-[20px] px-[10px] ">
         <div className="w-5/6  flex md:flex-row flex-col justify-between md:gap-10 gap-16 mx-auto items-center relative ">
           <div className="md:w-2/5 w-full text-[#ffffff] flex flex-col md:gap-16 gap-8 mt-8">
