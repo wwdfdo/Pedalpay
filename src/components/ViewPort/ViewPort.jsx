@@ -65,10 +65,10 @@ const ViewPort = () => {
               </p>
             </div>
             <div>
-              <button>
+              <button className="border-[1px] border-[#ffffff] rounded-[3px] mr-5">
                 <img className=" w-[160px]" src={Applestore} alt="" />
               </button>
-              <button>
+              <button className="border-[1px] border-[#ffffff] rounded-[3px]">
                 <img className=" w-[160px]" src={Googleplay} alt="" />
               </button>
             </div>
