@@ -59,9 +59,9 @@ const ViewPort = () => {
             <div>
               <p className="md:text-[1.2em] text-[0.8em] leading-relaxed font-montserrat font-400">
                 {" "}
-                PedalPay is a futuristic, eco-mobility platform combining worlds
-                of Game-Fi and Social-Fi into the most green mode of mobility,
-                cycling.
+                PedalsPay is a futuristic, eco-mobility platform combining
+                worlds of Game-Fi and Social-Fi into the most green mode of
+                mobility, cycling.
               </p>
             </div>
             <div className="flex gap-5">

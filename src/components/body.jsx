@@ -12,6 +12,7 @@ import NftEconomy from "./NftEconomy/NftEconomy";
 import Socialfy from "./Socialfy/Socialfy";
 import NeonRoadMap from "./NeonRoadMap/NeonRoadMap";
 import TokenEconomy from "./TokenEconomy/TokenEconomy";
+import Cards from "./Cards/Cards";
 // import CardSlider from "./CardSlider/CardSlider";
 // import Modes from "./Modes/Modes";
 
@@ -30,6 +31,7 @@ const Body = () => {
       <Socialfy />
       <NeonRoadMap />
       <TokenEconomy />
+      <Cards />
       {/* <TimelineRoadMap /> */}
 
       <Footer />
