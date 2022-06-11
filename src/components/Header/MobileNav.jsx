@@ -29,7 +29,7 @@ const MobileNav = ({ menus }) => {
   return (
     <>
       <div
-        className={`lg:hidden gap-8 items-center text-md font-semibold flex flex-col mt-3 py-10 ${
+        className={`lg:hidden gap-8 items-center text-md font-semibold flex flex-col mt-3 ${
           open ? "bg-[#000000]" : ""
         }`}
       >

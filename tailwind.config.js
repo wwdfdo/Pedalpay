@@ -8,6 +8,10 @@ module.exports = {
       cardbgcolor: "#353444",
     },
 
+    fontFamily: {
+      Montserrat: ["Montserrat", "sans-serif"],
+    },
+
     extend: {
       backgroundImage: {
         heroImage: "url('/src/images/cta-bg.jpg')",

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header/Header";
+// import Header from "./Header/Header";
 import ViewPort from "./ViewPort/ViewPort";
 import Overview from "./Overview/Overview";
 // import SlickSlider from "./Slider/SlickSlider";
@@ -17,8 +17,7 @@ import TokenEconomy from "./TokenEconomy/TokenEconomy";
 
 const Body = () => {
   return (
-    <div className="w-full bg-bodycolor text-white font-sans">
-      <Header />
+    <div className=" bg-bodycolor text-white font-sans box-border m-0 overflow-x-hidden w-[100%] h-[100%] p-0">
       <ViewPort />
       {/* <CardSlider /> */}
       <Overview />

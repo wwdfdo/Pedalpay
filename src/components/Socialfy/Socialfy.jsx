@@ -13,14 +13,14 @@ const Socialfy = () => {
         Social-Fi
       </h2>
       <div className="flex  w-4/6 justify-center mx-auto">
-        <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
-          <div class="ecosystem-content pt-[54px] px-[20px] pb-[60px] relative h-[100%] text-center ">
+        <div className="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
+          <div className="ecosystem-content pt-[54px] px-[20px] pb-[60px] relative h-[100%] text-center ">
             <IoIosBicycle className="text-[#ffffff] eco-img mx-auto mb-10 text-[8rem]" />
             <p className="text-[#ffffff] text-xl px-4">Bicycle Clubs</p>
           </div>
         </div>
-        <div class="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
-          <div class="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
+        <div className="ecosystem-item px-[10px] w-[420px] mx-auto my-[20px] ">
+          <div className="ecosystem-content pt-[54px] px-[22px] pb-[60px] relative h-[100%] text-center ">
             <CgCommunity className="text-[#ffffff] eco-img mx-auto mb-10 text-[8rem]" />
             <p className="text-[#ffffff] text-xl px-4">Community Programs</p>
           </div>

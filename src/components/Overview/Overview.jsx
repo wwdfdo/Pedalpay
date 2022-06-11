@@ -9,7 +9,7 @@ const Overview = () => {
         <h2 className="text-[2.5em] font-500 font-montserrat font-bold text-center text-titlecolor pb-16">
           Overview
         </h2>
-        <div className="flex lg:flex-row flex-col w-4/5 justify-between mx-auto items-center gap-20">
+        <div className="flex lg:flex-row flex-col md:w-4/5 w-[90%] justify-between mx-auto items-center gap-20">
           <img className="lg:w-1/2" src={overviewImg} alt="" />
           <div className="lg:w-1/2 text-titlecolor  py-10 px-10 rounded-lg font-mono">
             <div>

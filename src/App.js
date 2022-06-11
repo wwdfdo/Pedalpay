@@ -1,10 +1,11 @@
 import "./App.css";
-import Body from "./components/body";
+import Main from "./components/Main";
+// import Body from "./components/body";
 
 function App() {
   return (
     <>
-      <Body />
+      <Main />
     </>
   );
 }

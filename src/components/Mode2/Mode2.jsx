@@ -33,33 +33,33 @@ const Modes2 = () => {
         Ecosystem Modes
       </h2>
       <div className="ecosystem-box flex flex-wrap justify-center  w-4/6 mx-auto">
-        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
-          <div class="ecosystem-content1">
+        <div className="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div className="ecosystem-content1">
             <IoIosBicycle className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl text-center px-4">Solo-Mode</p>
           </div>
         </div>
-        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px]">
-          <div class="ecosystem-content1">
+        <div className="ecosystem-item basis-1/3 px-[15px] mb-[30px]">
+          <div className="ecosystem-content1">
             <BsBriefcase className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl text-center px-4">Worker</p>
           </div>
         </div>
-        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
-          <div class="ecosystem-content1">
+        <div className="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div className="ecosystem-content1">
             <GiLaurelsTrophy className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl text-center px-4">Rasing</p>
           </div>
         </div>
 
-        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
-          <div class="ecosystem-content1">
+        <div className="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div className="ecosystem-content1">
             <SiEventstore className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl text-center px-4">Events</p>
           </div>
         </div>
-        <div class="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
-          <div class="ecosystem-content1">
+        <div className="ecosystem-item basis-1/3 px-[15px] mb-[30px] ">
+          <div className="ecosystem-content1">
             <FaSnowflake className="text-[#ffffff] eco-img1 mx-auto mb-10 text-8xl" />
             <p className="text-[#ffffff] text-xl text-center px-4">
               Season Event
