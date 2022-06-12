@@ -14,6 +14,7 @@ import NeonRoadMap from "./NeonRoadMap/NeonRoadMap";
 import TokenEconomy from "./TokenEconomy/TokenEconomy";
 import Cards from "./Cards/Cards";
 import OverviewAnimate from "./OverviewAnimate/OverviewAnimate";
+import RidingBicycle from "./RidingBicycle/RidingBicycle";
 // import CardSlider from "./CardSlider/CardSlider";
 // import Modes from "./Modes/Modes";
 
@@ -21,6 +22,7 @@ const Body = () => {
   return (
     <div className=" bg-bodycolor text-white font-sans box-border m-0 overflow-x-hidden w-[100%] h-[100%] p-0">
       <ViewPort />
+      <RidingBicycle />
       {/* <CardSlider /> */}
       {/* <Overview /> */}
       <OverviewAnimate />
